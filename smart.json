@@ -1,0 +1,9 @@
+{
+  "name": "reactive-view",
+  "description": "An MV* View for Meteor",
+  "homepage": "http://marmalade.meteor.com",
+  "author": "Patrick Canfield",
+  "version": "0.0.1",
+  "git": "https://github.com/pzatrick/meteor-reactive-view.git",
+  "packages": {}
+}
