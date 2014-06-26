@@ -1,5 +1,5 @@
 Package.describe({
-  summary: "An MV* View class for Meteor"
+  summary: "DRY up and organize your meteor template code into reactive views"
 });
 
 Package.on_use(function (api) {
@@ -10,5 +10,11 @@ Package.on_use(function (api) {
 });
 
 Package.on_test(function (api) {
-  api.use('bview');
+  api.use([
+    'reactive-view',
+    'tinytest',
+    'ui', 
+    'coffeescript'
+    ]);
+  api.add_files('tests/reactive_view_tests.coffee', ['client']);
 });
